@@ -1,0 +1,6 @@
+mainClass=Legal3.Legal
+extractToTempDir=true
+nativesDirectory=JarMateyNatives
+externalFilesDirectory=JarMateyExternalFiles
+containsNatives=true
+containsExternalFiles=false
