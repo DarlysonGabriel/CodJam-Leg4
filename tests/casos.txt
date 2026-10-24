@@ -1,0 +1,486 @@
+#### exemplo_real_leg3
+Por favor
+	# Instalar motores em ME e MD
+	# Instalar os sensores de faixa em S2 e S6
+
+	# Instalar sensor de contato ou proximidade em S1
+
+	# Instalar o sensor de cor em S4
+	Siga faixa escura até obstáculo lento
+	ré 1s
+	giro direita 1,5s
+	Frente até obstáculo
+	giro direita 1,5s
+	Siga faixa escura até cor vermelha lento
+	
+Obrigado
+#### frente_tempo
+Por favor
+	Frente 2s
+Obrigado
+#### re_tempo
+Por favor
+	Ré 1s
+Obrigado
+#### frente_ate_obstaculo
+Por favor
+	Frente até obstáculo
+Obrigado
+#### giro_direita
+Por favor
+	Giro direita 1,5s
+Obrigado
+#### giro_esquerda
+Por favor
+	Giro esquerda 2s
+Obrigado
+#### pare
+Por favor
+	Pare
+Obrigado
+#### curva
+Por favor
+	Curva direita 2s
+Obrigado
+#### frente_sem_tempo
+Por favor
+	Frente
+Obrigado
+#### frente_tempo_baixo
+Por favor
+	Frente 0,05s
+Obrigado
+#### frente_tempo_alto
+Por favor
+	Frente 200s
+Obrigado
+#### frente_numero_ruim
+Por favor
+	Frente 1,s
+Obrigado
+#### frente_sem_unidade
+Por favor
+	Frente 3
+Obrigado
+#### frente_ate_cor
+Por favor
+	Frente até cor vermelha
+Obrigado
+#### siga_faixa_escura
+Por favor
+	Siga faixa escura até obstáculo lento
+Obrigado
+#### siga_faixa_clara_tempo
+Por favor
+	Siga faixa clara 5s
+Obrigado
+#### siga_luz
+Por favor
+	Siga luz até obstáculo
+Obrigado
+#### fuja_luz
+Por favor
+	Fuja luz 3s
+Obrigado
+#### motor_me
+Por favor
+	Motor me frente
+Obrigado
+#### motor_md_re_rapido
+Por favor
+	Motor md ré rápido
+Obrigado
+#### motor_sem_sentido
+Por favor
+	Motor me
+Obrigado
+#### servo_90
+Por favor
+	Servo1 90 graus
+Obrigado
+#### servo_1_grau
+Por favor
+	Servo2 1 grau
+Obrigado
+#### servo_1_graus
+Por favor
+	Servo1 1 graus
+Obrigado
+#### servo_30_grau
+Por favor
+	Servo1 30 grau
+Obrigado
+#### servo_200
+Por favor
+	Servo1 200 graus
+Obrigado
+#### acenda
+Por favor
+	Acenda l1
+Obrigado
+#### apague
+Por favor
+	Apague l1
+Obrigado
+#### ligue
+Por favor
+	Ligue l2
+Obrigado
+#### desligue
+Por favor
+	Desligue l2
+Obrigado
+#### som_alarme
+Por favor
+	Som alarme
+Obrigado
+#### som_aviso_tempo
+Por favor
+	Som aviso 2s
+Obrigado
+#### nota
+Por favor
+	Nota dó 1s
+Obrigado
+#### mudo
+Por favor
+	Mudo
+Obrigado
+#### espere_tempo
+Por favor
+	Espere 2s
+Obrigado
+#### espere_ate_obstaculo
+Por favor
+	Espere até obstáculo
+Obrigado
+#### espere_curto
+Por favor
+	Espere 0,05s
+Obrigado
+#### espere_longo
+Por favor
+	Espere 200s
+Obrigado
+#### palavra_desconhecida
+Por favor
+	Voar 2s
+Obrigado
+#### variavel_nao_declarada
+Por favor
+	x = 5
+Obrigado
+#### repita_sempre
+Por favor
+repita sempre [
+	Frente 1s
+	Ré 1s
+]
+Obrigado
+#### repita_3
+Por favor
+repita 3 vezes [
+	Frente 1s
+]
+Obrigado
+#### repita_300
+Por favor
+repita 300 vezes [
+	Frente 1s
+]
+Obrigado
+#### repita_sem_fecha
+Por favor
+repita 3 vezes [
+	Frente 1s
+Obrigado
+#### repita_aninhado
+Por favor
+repita 2 vezes [
+	repita 3 vezes [
+		Frente 1s
+	]
+]
+Obrigado
+#### se_senao
+Por favor
+se obstáculo então [
+	Pare
+] senão [
+	Frente 1s
+]
+Obrigado
+#### se_sem_entao
+Por favor
+se obstáculo [
+	Pare
+]
+Obrigado
+#### enquanto
+Por favor
+enquanto obstáculo [
+	Pare
+]
+Obrigado
+#### espere_ate_condicao_e
+Por favor
+Espere até obstáculo e cor vermelha
+Obrigado
+#### comentario_chaves
+Por favor
+{comentário em chaves}
+Frente 1s
+Obrigado
+#### minusculas
+por favor
+frente 1s
+obrigado
+#### obrigada
+Por favor
+Frente 1s
+Obrigada
+#### sem_por_favor
+Frente 1s
+Obrigado
+#### sem_obrigado
+Por favor
+Frente 1s
+#### vazio
+#### evento_simples
+Por favor
+Frente 1s
+Obrigado
+@@E1
+Pare
+#### evento_2_e_5
+Por favor
+Frente 1s
+Obrigado
+@@E2
+Pare
+@@E5
+Ré 1s
+#### evento_com_erro
+Por favor
+Frente 1s
+Obrigado
+@@E1
+Voar
+#### evento_habilite
+Por favor
+habilite evento 1
+Frente 1s
+Obrigado
+@@E1
+Pare
+#### motor_md_re
+Por favor
+	Motor md ré
+Obrigado
+#### motor_me_frente_lento
+Por favor
+	Motor me frente lento
+Obrigado
+#### motor_me_frente_50
+Por favor
+	Motor me frente 50
+Obrigado
+#### motor_me_frente_50pct
+Por favor
+	Motor me frente 50%
+Obrigado
+#### motores_frente
+Por favor
+	Motores frente
+Obrigado
+#### motor_me_md
+Por favor
+	Motor me md frente
+Obrigado
+#### acenda_sem
+Por favor
+	Acenda
+Obrigado
+#### apague_sem
+Por favor
+	Apague
+Obrigado
+#### ligue_saida1
+Por favor
+	Ligue saída1
+Obrigado
+#### desligue_saida1
+Por favor
+	Desligue saída1
+Obrigado
+#### ligue_sensor_distancia
+Por favor
+	Ligue sensor distância
+Obrigado
+#### acenda_l7
+Por favor
+	Acenda l7
+Obrigado
+#### acenda_l6
+Por favor
+	Acenda l6
+Obrigado
+#### espere_cor
+Por favor
+	Espere até cor vermelha
+Obrigado
+#### espere_sempre
+Por favor
+	Espere sempre
+Obrigado
+#### espere_s1
+Por favor
+	Espere até s1 > 10
+Obrigado
+#### repita_0
+Por favor
+	repita 0 vezes [ Frente 1s ]
+Obrigado
+#### repita_1
+Por favor
+	repita 1 vezes [ Frente 1s ]
+Obrigado
+#### repita_200
+Por favor
+	repita 200 vezes [ Frente 1s ]
+Obrigado
+#### repita_201
+Por favor
+	repita 201 vezes [ Frente 1s ]
+Obrigado
+#### repita_ate
+Por favor
+	repita até obstáculo [ Frente 1s ]
+Obrigado
+#### se_s1
+Por favor
+	se s1 > 5 então [ Pare ]
+Obrigado
+#### se_s1_senao
+Por favor
+	se s1 > 5 então [ Pare ] senão [ Frente 1s ]
+Obrigado
+#### se_s1_igual
+Por favor
+	se s1 = 5 então [ Pare ]
+Obrigado
+#### se_luz
+Por favor
+	se luz s1 > 50 então [ Pare ]
+Obrigado
+#### se_cor
+Por favor
+	se cor s4 = vermelha então [ Pare ]
+Obrigado
+#### se_sem_colchete
+Por favor
+	se s1 > 5 então Pare
+Obrigado
+#### se_e
+Por favor
+	se s1 > 5 e s2 < 3 então [ Pare ]
+Obrigado
+#### se_ou
+Por favor
+	se s1 > 5 ou s2 < 3 então [ Pare ]
+Obrigado
+#### enquanto_s1
+Por favor
+	enquanto s1 > 5 [ Pare ]
+Obrigado
+#### enquanto_sempre
+Por favor
+	enquanto sempre [ Frente 1s ]
+Obrigado
+#### nota_re
+Por favor
+	Nota ré 1s
+Obrigado
+#### nota_reb
+Por favor
+	Nota réb 1s
+Obrigado
+#### nota_do4
+Por favor
+	Nota dó4 1s
+Obrigado
+#### som_explosao
+Por favor
+	Som explosão
+Obrigado
+#### frente_ate_distancia
+Por favor
+	Frente até sensor distância < 20cm
+Obrigado
+#### giro_ate_obstaculo
+Por favor
+	Giro direita até obstáculo
+Obrigado
+#### siga_faixa_preta_cor
+Por favor
+	Siga faixa preta até cor azul
+Obrigado
+#### servo_5
+Por favor
+	Servo5 90 graus
+Obrigado
+#### servo_0_grau
+Por favor
+	Servo1 0 grau
+Obrigado
+#### servo_0_graus
+Por favor
+	Servo1 0 graus
+Obrigado
+#### pare_tempo
+Por favor
+	Pare 2s
+Obrigado
+#### frente_rapido
+Por favor
+	Frente 2s rápido
+Obrigado
+#### frente_lento
+Por favor
+	Frente 2s lento
+Obrigado
+#### habilite_s1
+Por favor
+habilite evento s1
+Frente 1s
+Obrigado
+@@E1
+Pare
+#### habilite_e1
+Por favor
+habilite evento e1
+Frente 1s
+Obrigado
+@@E1
+Pare
+#### desabilite_s1
+Por favor
+desabilite evento s1
+Frente 1s
+Obrigado
+@@E1
+Pare
+#### habilite_s1_sem_evento
+Por favor
+habilite evento s1
+Frente 1s
+Obrigado
+#### evento_habilite_so_E2
+Por favor
+habilite evento s1
+Frente 1s
+Obrigado
+@@E1
+Pare
+@@E2
+Pare

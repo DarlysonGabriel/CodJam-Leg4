@@ -1,0 +1,115 @@
+--- decompiled/PNCA/Compiler.java	2026-10-20 21:16:58.590415999 +0000
++++ build/src/PNCA/Compiler.java	2026-10-23 18:45:33.596874769 +0000
+@@ -5445,64 +5445,55 @@
+      * Unable to fully structure code
+      */
+     private void identifyNumber(StringBuilder word, ArrayList<Integer> stoken, TextScanner ts) throws IOException {
+-        block6: {
+-            this.setStokenValue(stoken, 108);
+-            c = ts.getCurrentChar();
++        this.setStokenValue(stoken, 108);
++        char c = ts.getCurrentChar();
++        word.append(c);
++        ts.readChar(false);
++        c = ts.getCurrentChar();
++        while (this.isNumber(c)) {
+             word.append(c);
++            if (ts.eol()) break;
+             ts.readChar(false);
+             c = ts.getCurrentChar();
+-            while (this.isNumber(c)) {
+-                word.append(c);
+-                if (ts.eol()) break;
+-                ts.readChar(false);
+-                c = ts.getCurrentChar();
+-            }
+-            word.replace(0, word.length(), word.toString().toUpperCase());
+-            auxWord = new String(word);
++        }
++        word.replace(0, word.length(), word.toString().toUpperCase());
++        String auxWord = new String(word);
++        try {
++            Short.valueOf(auxWord);
++        }
++        catch (NumberFormatException e) {
+             try {
+-                Short.valueOf(auxWord);
++                Double.valueOf(auxWord);
++                this.setStokenValue(stoken, 109);
++                word.replace(0, word.length(), String.valueOf(auxWord) + ".0");
++                double d = Double.valueOf(word.toString());
++                word.replace(0, word.length(), String.valueOf(d));
+             }
+-            catch (NumberFormatException e) {
+-                try {
+-                    Double.valueOf(auxWord);
+-                    this.setStokenValue(stoken, 109);
+-                    word.replace(0, word.length(), String.valueOf(auxWord) + ".0");
+-                    d = Double.valueOf(word.toString());
+-                    word.replace(0, word.length(), String.valueOf(d));
+-                }
+-                catch (NumberFormatException e2) {
+-                    this.setErrorCode(4);
+-                    return;
+-                }
++            catch (NumberFormatException e2) {
++                this.setErrorCode(4);
++                return;
+             }
+-            if (this.floatPointSeparator.indexOf(c) < 0) break block6;
+-            word.setLength(0);
+-            ts.readChar(false);
+-            c = ts.getCurrentChar();
+-            if (this.isNumber(c)) ** GOTO lbl50
++        }
++        if (this.floatPointSeparator.indexOf(c) < 0) {
++            return;
++        }
++        word.setLength(0);
++        ts.readChar(false);
++        c = ts.getCurrentChar();
++        if (!this.isNumber(c)) {
+             this.setErrorCode(5);
+             return;
+-lbl-1000:
+-            // 1 sources
+-
+-            {
+-                word.append(c);
+-                if (ts.eol()) break;
+-                c = ts.readChar(false);
+-                c = ts.getCurrentChar();
+-lbl50:
+-                // 2 sources
+-
+-                ** while (this.isNumber((char)c))
+-            }
+-lbl51:
+-            // 2 sources
+-
+-            this.setStokenValue(stoken, 109);
+-            word.replace(0, word.length(), String.valueOf(auxWord) + "." + word);
+-            d = Double.valueOf(word.toString());
+-            word.replace(0, word.length(), String.valueOf(d));
+         }
++        while (this.isNumber(c)) {
++            word.append(c);
++            if (ts.eol()) break;
++            ts.readChar(false);
++            c = ts.getCurrentChar();
++        }
++        this.setStokenValue(stoken, 109);
++        word.replace(0, word.length(), String.valueOf(auxWord) + "." + word);
++        double d = Double.valueOf(word.toString());
++        word.replace(0, word.length(), String.valueOf(d));
+     }
+ 
+     private void identifyOperator(StringBuilder word, ArrayList<Integer> stoken, TextScanner ts) throws IOException {
+@@ -6292,7 +6283,6 @@
+                     }
+                     this.lexico(word, stoken, this.textScanner);
+                 }
+-                break;
+             }
+         }
+         catch (Exception exception) {

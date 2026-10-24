@@ -1,0 +1,2969 @@
+CASO exemplo_real_leg3
+  erro=0 linha=12 resto=null porta=0
+  ce2prom=138 limite=4000
+  sensores=[128:13, 128:14, -6:2, -6:6, -4:1, 128:13, 128:14, 128:13, 128:14, 128:13, 128:14, 128:13, 128:14, -4:1, 128:13, 128:14, 128:13, 128:14, 128:13, 128:14, -6:2, -6:6, 2:4]
+  | Mp10\r
+  | D7B\r
+  | D79\r
+  | D7F\r
+  | D81\r
+  | D7F\r
+  | D79\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | DFF\r
+  | DFF\r
+  | CM\r
+  | D1E\r
+  | D1E\r
+  | CY\r
+  | D05\r
+  | CL\r
+  | D00\r
+  | CP\r
+  | CX\r
+  | D01\r
+  | D01\r
+  | C=\r
+  | D00\r
+  | D20\r
+  | CJ\r
+  | D00\r
+  | D0F\r
+  | CY\r
+  | D03\r
+  | CW\r
+  | D00\r
+  | CX\r
+  | D01\r
+  | D01\r
+  | C=\r
+  | D00\r
+  | D2D\r
+  | CJ\r
+  | D00\r
+  | D0F\r
+  | CP\r
+  | CM\r
+  | DC6\r
+  | DC6\r
+  | CW\r
+  | D01\r
+  | CP\r
+  | CM\r
+  | D46\r
+  | DC6\r
+  | CY\r
+  | D05\r
+  | CW\r
+  | D01\r
+  | CP\r
+  | CM\r
+  | D46\r
+  | D46\r
+  | CX\r
+  | D01\r
+  | D01\r
+  | C=\r
+  | D00\r
+  | D48\r
+  | CJ\r
+  | D00\r
+  | D3C\r
+  | CP\r
+  | CY\r
+  | D03\r
+  | CW\r
+  | D00\r
+  | CX\r
+  | D01\r
+  | D01\r
+  | C=\r
+  | D00\r
+  | D56\r
+  | CJ\r
+  | D00\r
+  | D3C\r
+  | CP\r
+  | CM\r
+  | D46\r
+  | DC6\r
+  | CY\r
+  | D05\r
+  | CW\r
+  | D01\r
+  | CP\r
+  | CM\r
+  | D1E\r
+  | D1E\r
+  | CY\r
+  | D05\r
+  | CL\r
+  | D00\r
+  | CP\r
+  | CA\r
+  | D04\r
+  | D00\r
+  | DA1\r
+  | D01\r
+  | D48\r
+  | C=\r
+  | D00\r
+  | D73\r
+  | CJ\r
+  | D00\r
+  | D5F\r
+  | CW\r
+  | D01\r
+  | CA\r
+  | D04\r
+  | D00\r
+  | DA1\r
+  | D01\r
+  | D48\r
+  | C=\r
+  | D00\r
+  | D81\r
+  | CJ\r
+  | D00\r
+  | D5F\r
+  | CP\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO frente_tempo
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=29 limite=4000
+  sensores=[128:13, 128:14]
+  | Mp10\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | DFF\r
+  | DFF\r
+  | CM\r
+  | D46\r
+  | D46\r
+  | CW\r
+  | D02\r
+  | CP\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO re_tempo
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=29 limite=4000
+  sensores=[128:13, 128:14]
+  | Mp10\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | DFF\r
+  | DFF\r
+  | CM\r
+  | DC6\r
+  | DC6\r
+  | CW\r
+  | D01\r
+  | CP\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO frente_ate_obstaculo
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=50 limite=4000
+  sensores=[128:13, 128:14, -4:1]
+  | Mp10\r
+  | D7B\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | DFF\r
+  | DFF\r
+  | CM\r
+  | D46\r
+  | D46\r
+  | CX\r
+  | D01\r
+  | D01\r
+  | C=\r
+  | D00\r
+  | D1B\r
+  | CJ\r
+  | D00\r
+  | D0F\r
+  | CP\r
+  | CY\r
+  | D03\r
+  | CW\r
+  | D00\r
+  | CX\r
+  | D01\r
+  | D01\r
+  | C=\r
+  | D00\r
+  | D29\r
+  | CJ\r
+  | D00\r
+  | D0F\r
+  | CP\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO giro_direita
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=31 limite=4000
+  sensores=[128:13, 128:14, 128:13, 128:14]
+  | Mp10\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | DFF\r
+  | DFF\r
+  | CM\r
+  | D46\r
+  | DC6\r
+  | CY\r
+  | D05\r
+  | CW\r
+  | D01\r
+  | CP\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO giro_esquerda
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=29 limite=4000
+  sensores=[128:13, 128:14, 128:13, 128:14]
+  | Mp10\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | DFF\r
+  | DFF\r
+  | CM\r
+  | DC6\r
+  | D46\r
+  | CW\r
+  | D02\r
+  | CP\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO pare
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=24 limite=4000
+  sensores=[]
+  | Mp10\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | CP\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO curva
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=29 limite=4000
+  sensores=[128:13, 128:14]
+  | Mp10\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | DFF\r
+  | DFF\r
+  | CM\r
+  | D32\r
+  | D14\r
+  | CW\r
+  | D02\r
+  | CP\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO frente_sem_tempo
+  erro=19 linha=1 resto=null porta=0
+  ce2prom=14 limite=4000
+  sensores=[128:13, 128:14]
+CASO frente_tempo_baixo
+  erro=21 linha=1 resto=null porta=0
+  ce2prom=14 limite=4000
+  sensores=[128:13, 128:14]
+CASO frente_tempo_alto
+  erro=20 linha=1 resto=null porta=0
+  ce2prom=14 limite=4000
+  sensores=[128:13, 128:14]
+CASO frente_numero_ruim
+  erro=5 linha=1 resto=null porta=0
+  ce2prom=14 limite=4000
+  sensores=[128:13, 128:14]
+CASO frente_sem_unidade
+  erro=22 linha=1 resto=null porta=0
+  ce2prom=14 limite=4000
+  sensores=[128:13, 128:14]
+CASO frente_ate_cor
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=54 limite=4000
+  sensores=[128:13, 128:14, 2:4]
+  | Mp10\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D81\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | DFF\r
+  | DFF\r
+  | CM\r
+  | D46\r
+  | D46\r
+  | CA\r
+  | D04\r
+  | D00\r
+  | DA1\r
+  | D01\r
+  | D48\r
+  | C=\r
+  | D00\r
+  | D1E\r
+  | CJ\r
+  | D00\r
+  | D0F\r
+  | CP\r
+  | CW\r
+  | D01\r
+  | CA\r
+  | D04\r
+  | D00\r
+  | DA1\r
+  | D01\r
+  | D48\r
+  | C=\r
+  | D00\r
+  | D2D\r
+  | CJ\r
+  | D00\r
+  | D0F\r
+  | CP\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO siga_faixa_escura
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=54 limite=4000
+  sensores=[128:13, 128:14, -6:2, -6:6, -4:1]
+  | Mp10\r
+  | D7B\r
+  | D79\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D79\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | DFF\r
+  | DFF\r
+  | CM\r
+  | D1E\r
+  | D1E\r
+  | CY\r
+  | D05\r
+  | CL\r
+  | D00\r
+  | CP\r
+  | CX\r
+  | D01\r
+  | D01\r
+  | C=\r
+  | D00\r
+  | D20\r
+  | CJ\r
+  | D00\r
+  | D0F\r
+  | CY\r
+  | D03\r
+  | CW\r
+  | D00\r
+  | CX\r
+  | D01\r
+  | D01\r
+  | C=\r
+  | D00\r
+  | D2D\r
+  | CJ\r
+  | D00\r
+  | D0F\r
+  | CP\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO siga_faixa_clara_tempo
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=29 limite=4000
+  sensores=[128:13, 128:14, -6:2, -6:6]
+  | Mp10\r
+  | D7F\r
+  | D79\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D79\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | DFF\r
+  | DFF\r
+  | CM\r
+  | D32\r
+  | D32\r
+  | CN\r
+  | D05\r
+  | CP\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO siga_luz
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=51 limite=4000
+  sensores=[128:13, 128:14, 3:3, 3:7, -4:1]
+  | Mp10\r
+  | D7B\r
+  | D7F\r
+  | D82\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D82\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | DFF\r
+  | DFF\r
+  | CY\r
+  | D05\r
+  | CG\r
+  | D00\r
+  | CP\r
+  | CX\r
+  | D01\r
+  | D01\r
+  | C=\r
+  | D00\r
+  | D1D\r
+  | CJ\r
+  | D00\r
+  | D0F\r
+  | CY\r
+  | D03\r
+  | CW\r
+  | D00\r
+  | CX\r
+  | D01\r
+  | D01\r
+  | C=\r
+  | D00\r
+  | D2A\r
+  | CJ\r
+  | D00\r
+  | D0F\r
+  | CP\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO fuja_luz
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=26 limite=4000
+  sensores=[128:13, 128:14, 3:3, 3:7]
+  | Mp10\r
+  | D7F\r
+  | D7F\r
+  | D82\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D82\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | DFF\r
+  | DFF\r
+  | CU\r
+  | D03\r
+  | CP\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO motor_me
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=25 limite=4000
+  sensores=[128:13]
+  | Mp10\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | DFF\r
+  | D7F\r
+  | CF\r
+  | D46\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO motor_md_re_rapido
+  erro=10 linha=1 resto=null porta=0
+  ce2prom=16 limite=4000
+  sensores=[128:14]
+CASO motor_sem_sentido
+  erro=96 linha=1 resto=null porta=0
+  ce2prom=14 limite=4000
+  sensores=[128:13]
+CASO servo_90
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=30 limite=4000
+  sensores=[100:9]
+  | Mp10\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | DE3\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | C|\r
+  | D01\r
+  | D5A\r
+  | CY\r
+  | D07\r
+  | CW\r
+  | D00\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO servo_1_grau
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=30 limite=4000
+  sensores=[100:10]
+  | Mp10\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | DE3\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | C|\r
+  | D02\r
+  | D01\r
+  | CY\r
+  | D07\r
+  | CW\r
+  | D00\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO servo_1_graus
+  erro=155 linha=1 resto=null porta=0
+  ce2prom=18 limite=4000
+  sensores=[]
+CASO servo_30_grau
+  erro=154 linha=1 resto=null porta=0
+  ce2prom=18 limite=4000
+  sensores=[]
+CASO servo_200
+  erro=42 linha=1 resto=null porta=0
+  ce2prom=18 limite=4000
+  sensores=[]
+CASO acenda
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=25 limite=4000
+  sensores=[]
+  | Mp10\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | C#\r
+  | D01\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO apague
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=25 limite=4000
+  sensores=[]
+  | Mp10\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | C*\r
+  | D01\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO ligue
+  erro=29 linha=1 resto=null porta=0
+  ce2prom=14 limite=4000
+  sensores=[]
+CASO desligue
+  erro=29 linha=1 resto=null porta=0
+  ce2prom=14 limite=4000
+  sensores=[]
+CASO som_alarme
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=26 limite=4000
+  sensores=[]
+  | Mp10\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | C2\r
+  | D83\r
+  | D00\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO som_aviso_tempo
+  erro=59 linha=1 resto=null porta=0
+  ce2prom=17 limite=4000
+  sensores=[]
+CASO nota
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=26 limite=4000
+  sensores=[]
+  | Mp10\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | C2\r
+  | D00\r
+  | D0A\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO mudo
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=24 limite=4000
+  sensores=[]
+  | Mp10\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | CB\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO espere_tempo
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=25 limite=4000
+  sensores=[]
+  | Mp10\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | CW\r
+  | D02\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO espere_ate_obstaculo
+  erro=19 linha=1 resto=null porta=0
+  ce2prom=14 limite=4000
+  sensores=[]
+CASO espere_curto
+  erro=21 linha=1 resto=null porta=0
+  ce2prom=14 limite=4000
+  sensores=[]
+CASO espere_longo
+  erro=20 linha=1 resto=null porta=0
+  ce2prom=14 limite=4000
+  sensores=[]
+CASO palavra_desconhecida
+  erro=15 linha=1 resto=null porta=0
+  ce2prom=14 limite=4000
+  sensores=[]
+CASO variavel_nao_declarada
+  erro=15 linha=1 resto=null porta=0
+  ce2prom=14 limite=4000
+  sensores=[]
+CASO repita_sempre
+  erro=0 linha=4 resto=null porta=0
+  ce2prom=38 limite=4000
+  sensores=[128:13, 128:14, 128:13, 128:14]
+  | Mp10\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | DFF\r
+  | DFF\r
+  | C[\r
+  | DFF\r
+  | CM\r
+  | D46\r
+  | D46\r
+  | CW\r
+  | D01\r
+  | CP\r
+  | CM\r
+  | DC6\r
+  | DC6\r
+  | CW\r
+  | D01\r
+  | CP\r
+  | C]\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO repita_3
+  erro=0 linha=3 resto=null porta=0
+  ce2prom=32 limite=4000
+  sensores=[128:13, 128:14]
+  | Mp10\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | DFF\r
+  | DFF\r
+  | C[\r
+  | D03\r
+  | CM\r
+  | D46\r
+  | D46\r
+  | CW\r
+  | D01\r
+  | CP\r
+  | C]\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO repita_300
+  erro=33 linha=1 resto=null porta=0
+  ce2prom=14 limite=4000
+  sensores=[]
+CASO repita_sem_fecha
+  erro=36 linha=1 resto=null porta=0
+  ce2prom=22 limite=4000
+  sensores=[128:13, 128:14]
+CASO repita_aninhado
+  erro=0 linha=5 resto=null porta=0
+  ce2prom=35 limite=4000
+  sensores=[128:13, 128:14]
+  | Mp10\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | DFF\r
+  | DFF\r
+  | C[\r
+  | D02\r
+  | C[\r
+  | D03\r
+  | CM\r
+  | D46\r
+  | D46\r
+  | CW\r
+  | D01\r
+  | CP\r
+  | C]\r
+  | C]\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO se_senao
+  erro=51 linha=1 resto=null porta=0
+  ce2prom=14 limite=4000
+  sensores=[]
+CASO se_sem_entao
+  erro=51 linha=1 resto=null porta=0
+  ce2prom=14 limite=4000
+  sensores=[]
+CASO enquanto
+  erro=51 linha=1 resto=null porta=0
+  ce2prom=14 limite=4000
+  sensores=[]
+CASO espere_ate_condicao_e
+  erro=19 linha=1 resto=null porta=0
+  ce2prom=14 limite=4000
+  sensores=[]
+CASO comentario_chaves
+  erro=0 linha=2 resto=null porta=0
+  ce2prom=29 limite=4000
+  sensores=[128:13, 128:14]
+  | Mp10\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | DFF\r
+  | DFF\r
+  | CM\r
+  | D46\r
+  | D46\r
+  | CW\r
+  | D01\r
+  | CP\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO minusculas
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=29 limite=4000
+  sensores=[128:13, 128:14]
+  | Mp10\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | DFF\r
+  | DFF\r
+  | CM\r
+  | D46\r
+  | D46\r
+  | CW\r
+  | D01\r
+  | CP\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO obrigada
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=29 limite=4000
+  sensores=[128:13, 128:14]
+  | Mp10\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | DFF\r
+  | DFF\r
+  | CM\r
+  | D46\r
+  | D46\r
+  | CW\r
+  | D01\r
+  | CP\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO sem_por_favor
+  erro=1 linha=1 resto=null porta=0
+  ce2prom=14 limite=4000
+  sensores=[]
+CASO sem_obrigado
+  erro=39 linha=1 resto=null porta=0
+  ce2prom=20 limite=4000
+  sensores=[128:13, 128:14]
+CASO vazio
+  erro=1 linha=0 resto=null porta=0
+  ce2prom=14 limite=4000
+  sensores=[]
+CASO evento_simples
+  erro=0 linha=0 resto=null porta=0
+  ce2prom=34 limite=4000
+  sensores=[-4:1, 128:13, 128:14]
+  | Mp10\r
+  | D7B\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | DFF\r
+  | DFF\r
+  | C1\r
+  | D0C\r
+  | C#\r
+  | D0C\r
+  | CM\r
+  | D46\r
+  | D46\r
+  | CW\r
+  | D01\r
+  | CP\r
+  | C.\r
+  | M1\r
+  | CP\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO evento_2_e_5
+  erro=0 linha=0 resto=null porta=0
+  ce2prom=44 limite=4000
+  sensores=[-4:2, -4:5, 128:13, 128:14, 128:13, 128:14]
+  | Mp10\r
+  | D7F\r
+  | D7B\r
+  | D7F\r
+  | D7F\r
+  | D7B\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | DFF\r
+  | DFF\r
+  | C1\r
+  | D16\r
+  | C#\r
+  | D16\r
+  | C1\r
+  | D34\r
+  | C#\r
+  | D34\r
+  | CM\r
+  | D46\r
+  | D46\r
+  | CW\r
+  | D01\r
+  | CP\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | CP\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | CM\r
+  | DC6\r
+  | DC6\r
+  | CW\r
+  | D01\r
+  | CP\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO evento_com_erro
+  erro=15 linha=0 resto=null porta=0
+  ce2prom=25 limite=4000
+  sensores=[-4:1, 128:13, 128:14]
+CASO evento_habilite
+  erro=16 linha=1 resto=null porta=0
+  ce2prom=14 limite=4000
+  sensores=[]
+CASO motor_md_re
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=25 limite=4000
+  sensores=[128:14]
+  | Mp10\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | DFF\r
+  | Cr\r
+  | D46\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO motor_me_frente_lento
+  erro=10 linha=1 resto=null porta=0
+  ce2prom=16 limite=4000
+  sensores=[128:13]
+CASO motor_me_frente_50
+  erro=126 linha=1 resto=null porta=0
+  ce2prom=14 limite=4000
+  sensores=[128:13]
+CASO motor_me_frente_50pct
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=25 limite=4000
+  sensores=[128:13]
+  | Mp10\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | DFF\r
+  | D7F\r
+  | CF\r
+  | D32\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO motores_frente
+  erro=10 linha=1 resto=null porta=0
+  ce2prom=14 limite=4000
+  sensores=[]
+CASO motor_me_md
+  erro=96 linha=1 resto=null porta=0
+  ce2prom=14 limite=4000
+  sensores=[128:13]
+CASO acenda_sem
+  erro=82 linha=1 resto=null porta=0
+  ce2prom=14 limite=4000
+  sensores=[]
+CASO apague_sem
+  erro=83 linha=1 resto=null porta=0
+  ce2prom=14 limite=4000
+  sensores=[]
+CASO ligue_saida1
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=25 limite=4000
+  sensores=[-1:1]
+  | Mp10\r
+  | D7E\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | C\u00cb\r
+  | D0C\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO desligue_saida1
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=25 limite=4000
+  sensores=[-1:1]
+  | Mp10\r
+  | D7E\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | C\u00ca\r
+  | D0C\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO ligue_sensor_distancia
+  erro=87 linha=1 resto=null porta=0
+  ce2prom=14 limite=4000
+  sensores=[]
+CASO acenda_l7
+  erro=82 linha=1 resto=null porta=0
+  ce2prom=14 limite=4000
+  sensores=[]
+CASO acenda_l6
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=25 limite=4000
+  sensores=[]
+  | Mp10\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | C#\r
+  | D06\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO espere_cor
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=49 limite=4000
+  sensores=[2:4]
+  | Mp10\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D81\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | CA\r
+  | D04\r
+  | D00\r
+  | DA1\r
+  | D01\r
+  | D48\r
+  | C=\r
+  | D00\r
+  | D1B\r
+  | CJ\r
+  | D00\r
+  | D0F\r
+  | CW\r
+  | D01\r
+  | CA\r
+  | D04\r
+  | D00\r
+  | DA1\r
+  | D01\r
+  | D48\r
+  | C=\r
+  | D00\r
+  | D29\r
+  | CJ\r
+  | D00\r
+  | D0F\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO espere_sempre
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=28 limite=4000
+  sensores=[]
+  | Mp10\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | Cw\r
+  | D64\r
+  | CJ\r
+  | D00\r
+  | D0F\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO espere_s1
+  erro=19 linha=1 resto=null porta=0
+  ce2prom=14 limite=4000
+  sensores=[]
+CASO repita_0
+  erro=33 linha=1 resto=null porta=0
+  ce2prom=14 limite=4000
+  sensores=[]
+CASO repita_1
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=32 limite=4000
+  sensores=[128:13, 128:14]
+  | Mp10\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | DFF\r
+  | DFF\r
+  | C[\r
+  | D01\r
+  | CM\r
+  | D46\r
+  | D46\r
+  | CW\r
+  | D01\r
+  | CP\r
+  | C]\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO repita_200
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=32 limite=4000
+  sensores=[128:13, 128:14]
+  | Mp10\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | DFF\r
+  | DFF\r
+  | C[\r
+  | DC8\r
+  | CM\r
+  | D46\r
+  | D46\r
+  | CW\r
+  | D01\r
+  | CP\r
+  | C]\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO repita_201
+  erro=33 linha=1 resto=null porta=0
+  ce2prom=14 limite=4000
+  sensores=[]
+CASO repita_ate
+  erro=34 linha=1 resto=null porta=0
+  ce2prom=14 limite=4000
+  sensores=[]
+CASO se_s1
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=34 limite=4000
+  sensores=[20:1]
+  | Mp10\r
+  | D93\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | C\u00e1\r
+  | D01\r
+  | D00\r
+  | D05\r
+  | C>\r
+  | D00\r
+  | D19\r
+  | CJ\r
+  | D00\r
+  | D1A\r
+  | CP\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO se_s1_senao
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=43 limite=4000
+  sensores=[20:1, 128:13, 128:14]
+  | Mp10\r
+  | D93\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | DFF\r
+  | DFF\r
+  | C\u00e1\r
+  | D01\r
+  | D00\r
+  | D05\r
+  | C>\r
+  | D00\r
+  | D19\r
+  | CJ\r
+  | D00\r
+  | D1D\r
+  | CP\r
+  | CJ\r
+  | D00\r
+  | D23\r
+  | CM\r
+  | D46\r
+  | D46\r
+  | CW\r
+  | D01\r
+  | CP\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO se_s1_igual
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=34 limite=4000
+  sensores=[20:1]
+  | Mp10\r
+  | D93\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | C\u00e1\r
+  | D01\r
+  | D00\r
+  | D05\r
+  | C=\r
+  | D00\r
+  | D19\r
+  | CJ\r
+  | D00\r
+  | D1A\r
+  | CP\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO se_luz
+  erro=51 linha=1 resto=null porta=0
+  ce2prom=14 limite=4000
+  sensores=[]
+CASO se_cor
+  erro=24 linha=1 resto=null porta=0
+  ce2prom=14 limite=4000
+  sensores=[]
+CASO se_sem_colchete
+  erro=13 linha=1 resto=null porta=0
+  ce2prom=24 limite=4000
+  sensores=[20:1]
+CASO se_e
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=49 limite=4000
+  sensores=[20:1, 20:2]
+  | Mp10\r
+  | D93\r
+  | D93\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | C\u00e3\r
+  | D1B\r
+  | D19\r
+  | D00\r
+  | D05\r
+  | C\u00e3\r
+  | D1E\r
+  | D19\r
+  | D00\r
+  | D03\r
+  | C@\r
+  | D01\r
+  | D1B\r
+  | D1C\r
+  | D3E\r
+  | D02\r
+  | D1E\r
+  | D1F\r
+  | D3C\r
+  | C>\r
+  | D00\r
+  | D28\r
+  | CJ\r
+  | D00\r
+  | D29\r
+  | CP\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO se_ou
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=49 limite=4000
+  sensores=[20:1, 20:2]
+  | Mp10\r
+  | D93\r
+  | D93\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | C\u00e3\r
+  | D1B\r
+  | D19\r
+  | D00\r
+  | D05\r
+  | C\u00e3\r
+  | D1E\r
+  | D19\r
+  | D00\r
+  | D03\r
+  | CO\r
+  | D01\r
+  | D1B\r
+  | D1C\r
+  | D3E\r
+  | D02\r
+  | D1E\r
+  | D1F\r
+  | D3C\r
+  | C>\r
+  | D00\r
+  | D28\r
+  | CJ\r
+  | D00\r
+  | D29\r
+  | CP\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO enquanto_s1
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=37 limite=4000
+  sensores=[20:1]
+  | Mp10\r
+  | D93\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | C\u00e1\r
+  | D01\r
+  | D00\r
+  | D05\r
+  | C>\r
+  | D00\r
+  | D19\r
+  | CJ\r
+  | D00\r
+  | D1D\r
+  | CP\r
+  | CJ\r
+  | D00\r
+  | D0F\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO enquanto_sempre
+  erro=51 linha=1 resto=null porta=0
+  ce2prom=14 limite=4000
+  sensores=[]
+CASO nota_re
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=26 limite=4000
+  sensores=[]
+  | Mp10\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | C2\r
+  | D02\r
+  | D0A\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO nota_reb
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=26 limite=4000
+  sensores=[]
+  | Mp10\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | C2\r
+  | D01\r
+  | D0A\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO nota_do4
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=26 limite=4000
+  sensores=[]
+  | Mp10\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | C2\r
+  | D24\r
+  | D0A\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO som_explosao
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=26 limite=4000
+  sensores=[]
+  | Mp10\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | C2\r
+  | D85\r
+  | D00\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO frente_ate_distancia
+  erro=19 linha=1 resto=null porta=0
+  ce2prom=14 limite=4000
+  sensores=[128:13, 128:14]
+CASO giro_ate_obstaculo
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=50 limite=4000
+  sensores=[128:13, 128:14, 128:13, 128:14, -4:8]
+  | Mp10\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7B\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | DFF\r
+  | DFF\r
+  | CM\r
+  | D46\r
+  | DC6\r
+  | CX\r
+  | D08\r
+  | D01\r
+  | C=\r
+  | D00\r
+  | D1B\r
+  | CJ\r
+  | D00\r
+  | D0F\r
+  | CP\r
+  | CY\r
+  | D03\r
+  | CW\r
+  | D00\r
+  | CX\r
+  | D08\r
+  | D01\r
+  | C=\r
+  | D00\r
+  | D29\r
+  | CJ\r
+  | D00\r
+  | D0F\r
+  | CP\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO siga_faixa_preta_cor
+  erro=25 linha=1 resto=null porta=0
+  ce2prom=14 limite=4000
+  sensores=[128:13, 128:14, -6:2, -6:6]
+CASO servo_5
+  erro=15 linha=1 resto=null porta=0
+  ce2prom=14 limite=4000
+  sensores=[]
+CASO servo_0_grau
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=30 limite=4000
+  sensores=[100:9]
+  | Mp10\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | DE3\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | C|\r
+  | D01\r
+  | D00\r
+  | CY\r
+  | D07\r
+  | CW\r
+  | D00\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO servo_0_graus
+  erro=155 linha=1 resto=null porta=0
+  ce2prom=18 limite=4000
+  sensores=[]
+CASO pare_tempo
+  erro=69 linha=1 resto=null porta=0
+  ce2prom=15 limite=4000
+  sensores=[]
+CASO frente_rapido
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=29 limite=4000
+  sensores=[128:13, 128:14]
+  | Mp10\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | DFF\r
+  | DFF\r
+  | CM\r
+  | D64\r
+  | D64\r
+  | CW\r
+  | D02\r
+  | CP\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO frente_lento
+  erro=0 linha=1 resto=null porta=0
+  ce2prom=29 limite=4000
+  sensores=[128:13, 128:14]
+  | Mp10\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | DFF\r
+  | DFF\r
+  | CM\r
+  | D14\r
+  | D14\r
+  | CW\r
+  | D02\r
+  | CP\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO habilite_s1
+  erro=0 linha=0 resto=null porta=0
+  ce2prom=34 limite=4000
+  sensores=[-4:1, 128:13, 128:14]
+  | Mp10\r
+  | D7B\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | DFF\r
+  | DFF\r
+  | C1\r
+  | D0C\r
+  | C#\r
+  | D0C\r
+  | CM\r
+  | D46\r
+  | D46\r
+  | CW\r
+  | D01\r
+  | CP\r
+  | C.\r
+  | M1\r
+  | CP\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO habilite_e1
+  erro=16 linha=1 resto=null porta=0
+  ce2prom=14 limite=4000
+  sensores=[]
+CASO desabilite_s1
+  erro=0 linha=0 resto=null porta=0
+  ce2prom=32 limite=4000
+  sensores=[128:13, 128:14]
+  | Mp10\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | DFF\r
+  | DFF\r
+  | C*\r
+  | D0C\r
+  | CM\r
+  | D46\r
+  | D46\r
+  | CW\r
+  | D01\r
+  | CP\r
+  | C.\r
+  | M1\r
+  | CP\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO habilite_s1_sem_evento
+  erro=0 linha=2 resto=null porta=0
+  ce2prom=33 limite=4000
+  sensores=[-4:1, 128:13, 128:14]
+  | Mp10\r
+  | D7B\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | DFF\r
+  | DFF\r
+  | C1\r
+  | D0C\r
+  | C#\r
+  | D0C\r
+  | CM\r
+  | D46\r
+  | D46\r
+  | CW\r
+  | D01\r
+  | CP\r
+  | C.\r
+  | M1\r
+  | C!\r
+  | M2\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
+CASO evento_habilite_so_E2
+  erro=0 linha=0 resto=null porta=0
+  ce2prom=35 limite=4000
+  sensores=[-4:1, 128:13, 128:14]
+  | Mp10\r
+  | D7B\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | D7F\r
+  | DFF\r
+  | DFF\r
+  | C1\r
+  | D0C\r
+  | C#\r
+  | D0C\r
+  | CM\r
+  | D46\r
+  | D46\r
+  | CW\r
+  | D01\r
+  | CP\r
+  | C.\r
+  | M1\r
+  | CP\r
+  | C!\r
+  | M2\r
+  | CP\r
+  | C!\r
+  | M3\r
+  | C!\r
+  | M4\r
+  | C!\r
+  | M5\r
+  | C!\r
+  | M6\r
+  | C!\r
+  | M7\r
+  | C!\r
+  | M8\r
+  | C!\r
+  | Mf\r
