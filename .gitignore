@@ -1,0 +1,29 @@
+# .gitignore do CodJam-Leg4
+#
+# ATENÇÃO: não ignore *.class nem *.jar. Este repositório é o programa
+# compilado, e essas são as classes que o Legal realmente usa.
+
+# Pacote leg4 extraído dentro do repositório
+# (com --commitar-pacote, o que importa é copiado para a raiz)
+/leg4-pacote-para-commit/
+/leg4-pacote-para-commit.zip
+/.issues-atualizadas
+
+# Patches e sobras de patch
+*.patch
+*.orig
+*.rej
+
+# Logs e relatórios de falha da JVM
+*.log
+hs_err_pid*
+replay_pid*
+
+# Editores e sistema
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
