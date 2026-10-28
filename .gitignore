@@ -8,6 +8,8 @@
 /leg4-pacote-para-commit/
 /leg4-pacote-para-commit.zip
 /.issues-atualizadas
+/.Docs
+/.Patch
 
 # Patches e sobras de patch
 *.patch
