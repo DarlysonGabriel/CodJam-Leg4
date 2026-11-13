@@ -2,6 +2,9 @@ package codjam.editor;
 
 import java.awt.Toolkit;
 import java.awt.datatransfer.DataFlavor;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.JMenu;
 import javax.swing.JMenuItem;
 import javax.swing.JPopupMenu;
 import javax.swing.event.PopupMenuEvent;
@@ -13,7 +16,11 @@ final class MenuContexto {
     private MenuContexto() {
     }
 
-    static JPopupMenu criar(final RSyntaxTextArea area, Runnable abrirPropriedades) {
+    static JPopupMenu criar(RSyntaxTextArea area, Runnable abrirPropriedades) {
+        return criar(area, abrirPropriedades, false);
+    }
+
+    static JPopupMenu criar(final RSyntaxTextArea area, Runnable abrirPropriedades, boolean comRobo) {
         final JMenuItem desfazer = item("Desfazer", new Runnable() {
             public void run() {
                 area.undoLastAction();
@@ -29,14 +36,17 @@ final class MenuContexto {
                 area.paste();
             }
         });
-        JMenuItem propriedades = item("Propriedades", abrirPropriedades);
 
         JPopupMenu menu = new JPopupMenu();
         menu.add(desfazer);
         menu.add(copiar);
         menu.add(colar);
+        if (comRobo) {
+            menu.addSeparator();
+            menu.add(menuDoRobo());
+        }
         menu.addSeparator();
-        menu.add(propriedades);
+        menu.add(item("Propriedades", abrirPropriedades));
         menu.addPopupMenuListener(new PopupMenuListener() {
             public void popupMenuWillBecomeVisible(PopupMenuEvent evento) {
                 desfazer.setEnabled(area.canUndo());
@@ -53,10 +63,25 @@ final class MenuContexto {
         return menu;
     }
 
+    private static JMenu menuDoRobo() {
+        JMenu robo = new JMenu("Robô");
+        robo.add(item("Controlar", new Runnable() {
+            public void run() {
+                Robo.controlar();
+            }
+        }));
+        robo.add(item("Coletar dados", new Runnable() {
+            public void run() {
+                Robo.coletarDados();
+            }
+        }));
+        return robo;
+    }
+
     private static JMenuItem item(String texto, final Runnable acao) {
         JMenuItem item = new JMenuItem(texto);
-        item.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evento) {
+        item.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent evento) {
                 acao.run();
             }
         });

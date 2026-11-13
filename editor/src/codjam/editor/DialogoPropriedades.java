@@ -3,6 +3,7 @@ package codjam.editor;
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;
 import java.awt.GridLayout;
+import java.awt.Window;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.BorderFactory;
@@ -10,7 +11,6 @@ import javax.swing.JButton;
 import javax.swing.JCheckBox;
 import javax.swing.JComponent;
 import javax.swing.JDialog;
-import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JSpinner;
@@ -25,8 +25,8 @@ final class DialogoPropriedades {
     private DialogoPropriedades() {
     }
 
-    static void mostrar(JFrame janela, Preferencias atuais, final Aplicador aplicador) {
-        final JDialog dialogo = new JDialog(janela, "Propriedades", true);
+    static void mostrar(Window janela, Preferencias atuais, final Aplicador aplicador) {
+        final JDialog dialogo = new JDialog(janela, "Propriedades", java.awt.Dialog.ModalityType.APPLICATION_MODAL);
         final JCheckBox numeros = caixa("Mostrar o número da linha", atuais.numerosDeLinha);
         final JCheckBox linhaAtual = caixa("Destacar a linha atual", atuais.destacarLinhaAtual);
         final JCheckBox quebra = caixa("Quebrar linhas longas", atuais.quebraDeLinha);

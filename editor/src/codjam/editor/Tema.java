@@ -40,7 +40,10 @@ final class Tema {
         ColorUIResource borda = new ColorUIResource(BORDA);
 
         for (String chave : new String[] {"Panel", "OptionPane", "CheckBox", "Label", "Spinner", "Button", "PopupMenu",
-                "MenuItem", "Separator", "ScrollBar", "TextField", "FormattedTextField"}) {
+                "MenuItem", "Separator", "ScrollBar", "TextField", "FormattedTextField", "Menu", "MenuBar", "ComboBox",
+                "List", "Table", "TableHeader", "TabbedPane", "ToolTip", "TextArea", "TextPane", "EditorPane",
+                "PasswordField", "RadioButton", "ToggleButton", "ProgressBar", "ToolBar", "ScrollPane", "Viewport",
+                "SplitPane", "Tree", "CheckBoxMenuItem", "RadioButtonMenuItem", "InternalFrame", "Slider"}) {
             UIManager.put(chave + ".background", painel);
             UIManager.put(chave + ".foreground", texto);
         }
@@ -57,7 +60,6 @@ final class Tema {
         UIManager.put("PopupMenu.border", javax.swing.BorderFactory.createLineBorder(BORDA));
         UIManager.put("Separator.foreground", borda);
         UIManager.put("Separator.background", painel);
-        UIManager.put("ScrollBarUI", BarraDeRolagem.class.getName());
         UIManager.put("ScrollBar.thumb", destaque);
         UIManager.put("ScrollBar.thumbShadow", borda);
         UIManager.put("ScrollBar.thumbHighlight", new ColorUIResource(DESTAQUE_CLARO));
@@ -65,6 +67,20 @@ final class Tema {
         UIManager.put("ScrollBar.track", fundo);
         UIManager.put("ScrollBar.trackHighlight", painel);
         UIManager.put("Spinner.background", fundo);
+        UIManager.put("Menu.selectionBackground", new ColorUIResource(SELECAO));
+        UIManager.put("Menu.selectionForeground", texto);
+        UIManager.put("ComboBox.selectionBackground", new ColorUIResource(SELECAO));
+        UIManager.put("ComboBox.selectionForeground", texto);
+        UIManager.put("List.selectionBackground", new ColorUIResource(SELECAO));
+        UIManager.put("List.selectionForeground", texto);
+        UIManager.put("Table.selectionBackground", new ColorUIResource(SELECAO));
+        UIManager.put("Table.selectionForeground", texto);
+        UIManager.put("Table.gridColor", borda);
+        UIManager.put("TabbedPane.selected", new ColorUIResource(SELECAO));
+        UIManager.put("TabbedPane.contentAreaColor", fundo);
+        UIManager.put("ToolTip.background", painel);
+        UIManager.put("ToolTip.border", javax.swing.BorderFactory.createLineBorder(BORDA));
+        UIManager.put("ProgressBar.foreground", destaque);
         UIManager.put("TextField.caretForeground", texto);
         UIManager.put("TextField.selectionBackground", new ColorUIResource(SELECAO));
         UIManager.put("TextField.selectionForeground", texto);
